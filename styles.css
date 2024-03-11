@@ -33,33 +33,33 @@ body {
     display: flex;
     justify-content: center;
     background-color: #FFFFFF;
-    border: none;
-    border-radius: 32px;
     padding: 2px;
-    margin-top: 40px;
     min-height: 500px;
-    
 }
 
 .info {
+    display: flex;
+    align-items: center;
     color: #495057;
     font-weight: 400;
     font-size: 20px;
-    margin-top: 16px;
-    margin-bottom: 16px;
-
+    padding: 10px;
+    gap: 8px;
 }
 
 .mensagem {
     background-image: url(assets/flork.png);
-    background-size: 100px;
+    background-size: 150px;
     background-repeat: no-repeat;
-    background-position: center;
-    font-size: 24px;
-    font-weight: 400;
-    color: #0A3871;
+    background-position: bottom;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 20px;
+    color: #343A40;
     text-align: center;
-    margin-top: 10px;
+    border: none;
+    border-radius: 24px;
+    box-shadow: 0px 24px 32px -8px #00000014;
 }
 
 ::placeholder {color: #0A3871};
