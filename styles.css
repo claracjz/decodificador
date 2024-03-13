@@ -7,26 +7,28 @@
 }
 
 body {
-    background-color: white;
+    background: white;
     font-family: "Inter", sans-serif;
 }
 
 .pagina-inicial { 
+    margin-top: 80px;
     height: auto; 
-    margin-top: 20px;
     display: flex;
-    margin-left: 40px;
+    padding-left: 160px;
+    padding-right: 80px;
     justify-content: space-around;
     
 }
 
 .digitar-texto {
     border: none;
+    padding: 16px;
     color: #0A3871;
     font-weight: 400;
     font-size: 32px;
-    line-height: 48px;
     width: 680px;
+    text-transform: lowercase;
 }
 
 .saida {
@@ -66,7 +68,6 @@ body {
 
 .botoes {
     display: flex;
-    gap: 24px;
 }
 
 .btn-criptografar {
@@ -87,4 +88,5 @@ body {
     height: 67px;
     width: 328px;
     font-size: 20px;
+    margin-left: 16px;
 }
