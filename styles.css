@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
+:root {
+    --cor-primaria: #FFFFFF;
+    --cor-letras-botao-crip: #0A3871;
+    --cor-botao-descrip: #D8DFE8;
+    --cor-da-info: #495057;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -7,7 +14,7 @@
 }
 
 body {
-    background: white;
+    background: var(--cor-primaria);
     font-family: "Inter", sans-serif;
 }
 
@@ -24,9 +31,9 @@ body {
 .digitar-texto {
     border: none;
     padding: 16px;
-    color: #0A3871;
+    color: var(--cor-letras-botao-crip);
     font-weight: 400;
-    font-size: 32px;
+    font-size: 2rem;
     width: 680px;
     text-transform: lowercase;
 }
@@ -34,7 +41,7 @@ body {
 .saida {
     display: flex;
     justify-content: center;
-    background-color: #FFFFFF;
+    background-color: var(--cor-primaria);
     padding: 2px;
     min-height: 500px;
 }
@@ -42,9 +49,9 @@ body {
 .info {
     display: flex;
     align-items: center;
-    color: #495057;
+    color: var(--cor-da-info);
     font-weight: 400;
-    font-size: 20px;
+    font-size: 1.25rem;
     padding: 10px;
     gap: 8px;
 }
@@ -54,39 +61,38 @@ body {
     background-size: 150px;
     background-repeat: no-repeat;
     background-position: bottom;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 700;
     padding: 20px;
-    color: #343A40;
     text-align: center;
     border: none;
     border-radius: 24px;
     box-shadow: 0px 24px 32px -8px #00000014;
 }
 
-::placeholder {color: #0A3871};
+::placeholder {color: var(--cor-letras-botao-crip)};
 
 .botoes {
     display: flex;
 }
 
 .btn-criptografar {
-    background-color: #0A3871;
+    background-color: var(--cor-letras-botao-crip);
     border-radius: 28px;
-    border: 1px solid #0A3871;
-    color: #FFFFFF;
+    border: 1px solid var(--cor-letras-botao-crip);
+    color: var(--cor-primaria);
     height: 67px;
     width: 328px;
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 
 .btn-descriptografar {
-    background-color: #D8DFE8;
-    color: #0A3871;
-    border: 1px solid #D8DFE8;
+    background-color: var(--cor-botao-descrip);
+    color: var(--cor-letras-botao-crip);
+    border: 1px solid var(--cor-botao-descrip);
     border-radius: 28px;
     height: 67px;
     width: 328px;
-    font-size: 20px;
+    font-size: 1.25rem;
     margin-left: 16px;
 }
