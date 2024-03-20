@@ -15,7 +15,7 @@
 - JAVASCRIPT
 - GIT
 
-## Você pode testá-lo no link:
+## Você pode testá-lo no link: https://claracjz.github.io/decodificador/
 
 ## Conecte-se comigo:
   
